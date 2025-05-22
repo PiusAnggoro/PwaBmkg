@@ -15,7 +15,7 @@ const Home = () => {
             try {
                 const [earthquakeData, weatherData] = await Promise.all([
                     fetchLatestEarthquake(),
-                    fetchWeatherData(9, `33.74.10.1006`)
+                    fetchWeatherData(9, `34.02.12.2002`)
                 ]);
                 setEarthquake(earthquakeData);
                 setWeather(weatherData.forecasts);

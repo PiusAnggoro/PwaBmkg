@@ -1,6 +1,6 @@
 {
-  "short_name": "SIGECA",
-  "name": "Sistem Informasi Gempa & Cuaca",
+  "short_name": "Pwa-BMKG",
+  "name": "Info Gempa & Cuaca",
   "icons": [
     {
       "src": "logo.ico",

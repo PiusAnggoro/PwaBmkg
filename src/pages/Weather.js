@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import WeatherTab from '../components/weathertab'; // Adjust the path as necessary
+import WeatherTab from '../components/weathertab';
 import { fetchWeatherData } from '../data/fetchapi';
 
 const Weather = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
     const [weatherData, setWeatherData] = useState([]);
-    const regionCodes = ["74", "73", "24", "21", "23", "08", "19"];
+    const regionCodes = ["71", "01", "02", "03", "04"];
 
     useEffect(() => {
         const fetchData = async () => {
@@ -15,7 +15,7 @@ const Weather = () => {
                 const promises = regionCodes.map(code => {
                     const loc = code.startsWith('7') ? '1001' : '2001';
                     code = code.startsWith('8') ? "0" + "8" : code;
-                    return fetchWeatherData(6, `33.${code}.01.${loc}`);
+                    return fetchWeatherData(6, `34.${code}.01.${loc}`);
                 });
 
                 const results = await Promise.all(promises);
