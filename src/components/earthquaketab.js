@@ -43,7 +43,6 @@ const Modal = ({ isOpen, onClose, details }) => {
     );
 };
 
-
 const EqTab = ({ eqs }) => {
     const [selectedEq, setSelectedEq] = useState(null);
     const [isModalOpen, setModalOpen] = useState(false);

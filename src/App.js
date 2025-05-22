@@ -54,7 +54,7 @@ export default function App() {
               </Routes>
             </div>
             <footer className="sticky float-end bottom-0 w-full p-2 text-center items-center text-white h-[10vh] bg-slate-900">
-              <div className="grid h-full grid-cols-4 align-middle">
+              <div className="grid h-full grid-cols-3 align-middle">
                 <NavLink to="/" className='justify-center w-full mx-auto'>
                   <HiHome className='pt-1 mx-auto size-7' />
                   <div>Home</div>
