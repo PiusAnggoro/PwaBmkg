@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Earthquake from './pages/Earthquake'; 
 import Weather from './pages/Weather'; 
 import Profile from './pages/Profile';
-import Search from './pages/Search';
 import SplashScreen from './pages/SplashScreen';
 
 export default function App() {
@@ -52,7 +51,6 @@ export default function App() {
                 <Route path="/earthquake" element={<Earthquake />} />
                 <Route path="/weather" element={<Weather />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/search" element={<Search />} />
               </Routes>
             </div>
             <footer className="sticky float-end bottom-0 w-full p-2 text-center items-center text-white h-[10vh] bg-slate-900">
@@ -68,10 +66,6 @@ export default function App() {
                 <NavLink to="/weather" className='justify-center w-full mx-auto'>
                   <FaCloudSun className='pt-1 mx-auto size-7' />
                   <div>Weather</div>
-                </NavLink>
-                <NavLink to="/search" className='justify-center w-full mx-auto'>
-                  <FaSearch className='pt-1 mx-auto size-7' />
-                  <div>Search</div>
                 </NavLink>
               </div>
             </footer>
