@@ -34,7 +34,7 @@ export default function App() {
           <>
             <header className="sticky z-50 top-0 flex h-[7vh] justify-between p-4 bg-blue-900 shadow-md shadow-gray-800  px-[5%]">
               <div className="flex">
-                <h2 className="flex items-center text-2xl font-bold text-white">SIGECA - APP</h2>
+                <h2 className="flex items-center text-2xl font-bold text-white">PWA BMKG</h2>
               </div>
               <div className="flex">
                 <NavLink to="/profile" className="flex items-center text-2xl text-white">
