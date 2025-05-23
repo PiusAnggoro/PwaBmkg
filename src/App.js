@@ -39,7 +39,7 @@ export default function App() {
                 <NavLink to="/profile" className="flex items-center text-2xl text-white">
                   <img
                     className="ml-8 border-2 border-white rounded-full size-8"
-                    src="https://avatarfiles.alphacoders.com/374/thumb-1920-374805.png"
+                    src="./logo.png"
                     alt="User Avatar"
                   />
                 </NavLink>
